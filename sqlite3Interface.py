@@ -1,3 +1,4 @@
+#sqlite3 interface code using python
 import sqlite3
 connection = sqlite3.connect("sample.db")
 cursor = connection.cursor()
